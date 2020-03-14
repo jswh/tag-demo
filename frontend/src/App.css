@@ -1,0 +1,4 @@
+@import '~antd/dist/antd.css';
+.tag-card {
+    width: 100% !important;
+}
