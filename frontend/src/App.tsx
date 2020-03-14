@@ -150,7 +150,7 @@ class App extends Component {
     this.getList()
   }
   async getList() {
-    let property = await (await axios.get(`${api}/api/property/1/tag')).data
+    let property = await (await axios.get(`${api}/api/property/1/tag`)).data
     this.setState({ property })
   }
 
